@@ -41,8 +41,9 @@ DB_DATABASE=edge_finc #seu banco de dados
 DB_USERNAME=user #seu usuário
 DB_PASSWORD=pass #sua senha
 ```
-5. Gere as chaves JWT
+5. Gere a chave e as hash JWT
 ```bash
+php artisan key:generate
 php artisan jwt:secret #para gerar a hash do JWT
 php artisan jwt:token-api #para gerar a hash que deve ser utilizada para consumir a rota de API (Authorization Bearer)
 ```
