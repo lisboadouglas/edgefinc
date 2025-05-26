@@ -84,6 +84,6 @@ php artisan jwt:token-api #para gerar a hash que deve ser utilizada para consumi
 
 Este comando irá gerar um novo token e irá atualizar automaticamente o `.env` e exibirá o token no terminal para poder ser copiado e ser adicionado ao frontend
 
-Desenvolvido por Douglas S Lisboa
-Licença: MIT
-Repositório do Frontend: [Repositório Frontend](https://github.com/lisboadouglas/frontend-edgefinch)
+*Desenvolvido por Douglas S Lisboa
+*Licença: MIT
+*Repositório do Frontend: [Repositório Frontend](https://github.com/lisboadouglas/frontend-edgefinch)
