@@ -34,8 +34,11 @@ return [
             'channel' => env('SLACK_BOT_USER_DEFAULT_CHANNEL'),
         ],
     ],
-    'static_key' => [
-        'key' => env('API_STATIC_KEY', '11336655228855'),
+    'static_jwt' => [
+        'key' => env('API_STATIC_KEY'),
+    ],
+    'gosat' => [
+        'url' => env('GOSAT_API_URL', 'https://dev.gosat.org'),
     ]
 
 ];
